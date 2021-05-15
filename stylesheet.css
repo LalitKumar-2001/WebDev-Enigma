@@ -3,23 +3,37 @@
     text-shadow: 2px 2px 2px;
     font-family: 'Girassol', cursive;
     font-size: 80px;
-    color:rgb(31, 25, 18) ;
-    background-color: rgba(128, 0, 28, 0.452);
+    color:rgb(252, 140, 13) ;
+    
     padding: 10px;
 
     border-radius: 50px;
 }
 
-
 /*     BODY     */
 .body{
-    background: snow;
+    background:snow;
     background-blend-mode: lighten;
-    background-size: auto;
+    background-size: contain;
     background-attachment: fixed;
     background-position: center;
     text-align: center;    
     
+}
+.button{
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 90px;
+    text-align: center;
+    float: right;
+    display:inline-flex;
+
+    clear: both;
+    margin: 6px 2px;
+    
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+
 }
 
 /*       Navigation Bar      */
@@ -30,25 +44,27 @@
     
     list-style: none;
     display: inline-flex;
-    padding: 5px 20px;
+    padding: 10px 50px;
 }
 .navList:hover{
-    height: 20px;
+    height: 10px;
 }
 .toggle{
+    color: saddlebrown;
     width: 100%;
-    padding: 10px 20px;
+    padding: 10px 10px;
     text-align: right;
     box-sizing: border-box;
     font-size: 30px;  
     display: none;
 }
 .toggle li a{
+    color: saddlebrown;
     padding: 14px 16px;
 }
 .menu{
-    float:left;
-    display: block;
+     float:left;
+    
 }
 .dropdown {
     font-family: Arial, Helvetica, sans-serif;
@@ -58,10 +74,10 @@
 }
 .dropdown .dropbtn {
     font-size: 20px;  
-    list-style: inherit
+    list-style: inherit;
     padding: 5px 20px;
     font-family: inherit;
-    margin: 0;
+   
 }
 .dropdown:hover{
     background-color:snow;
@@ -100,9 +116,10 @@
 
 /*        Divisions      */ 
 .div{
+    margin: 20px;
     
     background-color: rgba(255, 255, 240, 0.329);
-    text-align: center
+    text-align: center;
     align-items: center;
     text-shadow: 10px;
     font-family: cursive;
@@ -124,25 +141,30 @@
     text-overflow: clip;
     text-anchor: middle;
 
-    color: rgb(31, 25, 18);
+
+    color: rgba(231, 148, 54, 0.685);
 }
 #interest{
-    width: 1000px; height: auto;
-    color: rgb(31, 25, 18);
+    width: 1000px; height: 500px;
+    color: rgba(231, 148, 54, 0.685);
+    padding: auto;
+
     align-content: center;
 }
 #skills{
     
-    color: rgb(31, 25, 18);
+    color: rgba(231, 148, 54, 0.685);
     align-content: center;
-    padding-left: 600px;
-    padding-right: 600px;
+    padding-left: 500px;
+    padding-right: 500px;
     text-decoration-color: lightsalmon;
     
 }
 #hobbie{
-    color: rgb(31, 25, 18);
+    color: rgba(231, 148, 54, 0.685);
     align-content: center;
+    padding-left: 510px;
+    padding-right: 500px;
 }
 
 
